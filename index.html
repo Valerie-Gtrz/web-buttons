@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>can has website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Here is a website</h1>
+    <h2>There is a button below and its fun to click.</h2>
+    <div>
+      <button
+        type="button"
+        onclick="iCannotLie()"
+        ondblclick="stopClick()"
+        class="center"
+      >
+        <span>Click</span>
+      </button>
+      <br />
+      <p id="message" class="container" style="display: none">
+        Told you so, and it's animated. Just look at that hover shadow too.
+      </p>
+      <p id="messageTwo" style="display: none">
+        Okay, you can stop clicking now.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
